@@ -8,10 +8,8 @@
     "noEmitHelpers": true
   },
   "files": [
-    "ng2-semantic-ui.ts",
-    "./typings/index.d.ts",
-    "!./node_modules/**",
-    "!./demo/**"
+    "index.ts",
+    "./typings/index.d.ts"
   ],
   "compileOnSave": false,
   "buildOnSave": false,
