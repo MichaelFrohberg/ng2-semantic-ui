@@ -1,19 +1,19 @@
 {
   "compilerOptions": {
-    "noImplicitAny": true,
-    "module": "commonjs",
-    "target": "ES5",
+    "target": "es5",
+    "module": "system",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "sourceMap": true,
-    "declaration": true
+    "noEmitHelpers": true
   },
   "files": [
-    "typings/main.d.ts",
-    "ng2-semantic-ui.ts"
+    "ng2-semantic-ui.ts",
+    "./typings/index.d.ts",
+    "!./node_modules/**",
+    "!./demo/**"
   ],
-  "exclude": [
-    "node_modules",
-    "demo"
-  ]
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "atom": { "rewriteTsconfig": false }
 }
